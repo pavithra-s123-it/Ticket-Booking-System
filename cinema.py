@@ -1,3 +1,4 @@
+#Created a Main class Cinema
 
 class Cinema():
     def __init__(self, rows, cols, base_cost):
@@ -17,6 +18,10 @@ class Cinema():
         self.users = {}
         self.count = 1
         self.Total_income = 0
+
+
+
+# Display functionality 
 
     def display_menu(self):
         print()
@@ -76,8 +81,7 @@ class Cinema():
         else:
             return middle_cols_cost
 
-        
-
+       
     def display_seats(self):
         # display the available seats
         for i in range(self.rows):
